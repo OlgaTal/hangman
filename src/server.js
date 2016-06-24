@@ -23,5 +23,6 @@ app.listen(port, () => {
 });
 
 app.use('/', require('./controllers/home'));
+app.use('/hangman', require('./controllers/hangman'));
 
 module.exports = app;
